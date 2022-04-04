@@ -4,7 +4,7 @@
   "description": "graphql practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,14 @@
   "bugs": {
     "url": "https://github.com/bopboy/graphql-movie-api/issues"
   },
-  "homepage": "https://github.com/bopboy/graphql-movie-api#readme",
+  "homepage": "https://github.com/bopboy/graphql-movie-api",
   "dependencies": {
-    "graphql-yoga": "^2.0.0"
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
   }
 }
