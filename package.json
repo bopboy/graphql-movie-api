@@ -1,0 +1,25 @@
+{
+  "name": "graphql-movie-api",
+  "version": "1.0.0",
+  "description": "graphql practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bopboy/graphql-movie-api.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "bopboy lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bopboy/graphql-movie-api/issues"
+  },
+  "homepage": "https://github.com/bopboy/graphql-movie-api#readme",
+  "dependencies": {
+    "graphql-yoga": "^2.0.0"
+  }
+}
